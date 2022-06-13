@@ -1,4 +1,4 @@
-package br.com.example.springboot2;
+package br.com.junior.springboot2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
