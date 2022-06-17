@@ -1,6 +1,7 @@
 package br.com.junior.springboot2.config.validation.controller.dto;
 
 import br.com.junior.springboot2.model.Topico;
+import org.springframework.data.domain.Page;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -36,7 +37,7 @@ public class TopicoDto {
         return dataCriacao;
     }
 
-    public static List<TopicoDto> toTopicoDto (List<Topico> topicos) {
-        return topicos.stream().map(TopicoDto::new).collect(Collectors.toList());
+    public static Page<TopicoDto> toTopicoDto (Page<Topico> topicos) {
+        return topicos.map(TopicoDto::new);
     }
 }
