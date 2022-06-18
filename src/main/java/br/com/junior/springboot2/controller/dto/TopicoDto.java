@@ -1,11 +1,9 @@
-package br.com.junior.springboot2.config.validation.controller.dto;
+package br.com.junior.springboot2.controller.dto;
 
 import br.com.junior.springboot2.model.Topico;
 import org.springframework.data.domain.Page;
 
 import java.time.LocalDateTime;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class TopicoDto {
 

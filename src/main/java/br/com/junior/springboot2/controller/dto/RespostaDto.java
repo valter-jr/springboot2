@@ -1,4 +1,4 @@
-package br.com.junior.springboot2.config.validation.controller.dto;
+package br.com.junior.springboot2.controller.dto;
 
 import br.com.junior.springboot2.model.Resposta;
 

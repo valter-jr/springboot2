@@ -1,7 +1,7 @@
-package br.com.junior.springboot2.config.validation.controller;
+package br.com.junior.springboot2.controller;
 
-import br.com.junior.springboot2.config.validation.controller.dto.DetalhesDoTopicoDto;
-import br.com.junior.springboot2.config.validation.controller.dto.TopicoDto;
+import br.com.junior.springboot2.controller.dto.DetalhesDoTopicoDto;
+import br.com.junior.springboot2.controller.dto.TopicoDto;
 import br.com.junior.springboot2.form.AtualizacaoTopicoForm;
 import br.com.junior.springboot2.form.TopicoForm;
 import br.com.junior.springboot2.model.Topico;

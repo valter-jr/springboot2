@@ -1,4 +1,4 @@
-package br.com.junior.springboot2.config.validation.controller;
+package br.com.junior.springboot2.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
